@@ -47,7 +47,13 @@
             <div class="header-main container">
 	            <div class="row">
 	                <h1 class="logo col-md-4 col-12">
-	                    <a href="index.html"><img id="logo" src="assets/images/logo.png" alt="Logo"></a>
+	                   <!-- <a href="index.html"><img id="logo" src="assets/images/logo.png" alt="Logo"></a>-->
+                       <a href="index.html">
+                        <picture>
+                          <source srcset="assets/images/logo.webp" type="image/webp">
+                          <img id="logo" src="assets/images/logo.webp" alt="Logo" loading="lazy" decoding="async">
+                        </picture>
+                      </a>  
 	                </h1>           
 	                <div class="info col-md-8 col-12">
 	                    <ul class="menu-top float-right d-none d-md-block">
@@ -131,7 +137,13 @@
                     <div class="row page-row">
                         <article class="welcome col-lg-8 col-md-7 col-12">                         
                             <h3 class="title">Welcome to Shyamoli Engineering University</h3>
-                            <p><img class="img-fluid rounded-lg" src="assets/images/slides/slide-4.jpg" alt="" /></p>
+                            <!--<p><img class="img-fluid rounded-lg" src="assets/images/slides/slide-4.jpg" alt="" /></p>-->
+                            <p>
+                                <picture>
+                                  <source srcset="assets/images/slides/slide-4.webp" type="image/webp">
+                                  <img class="img-fluid rounded-lg" src="assets/images/slides/slide-4.webp" alt="" loading="lazy" decoding="async" />
+                                </picture>
+                              </p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras venenatis urna lectus, a euismod metus facilisis sed. Aliquam tristique sapien et tincidunt semper. Mauris ornare, turpis ac molestie molestie, erat nisi placerat ipsum, sit amet imperdiet ipsum lacus eu orci. Suspendisse euismod mollis nibh eu rhoncus. </p>
                             <ul class="custom-list-style">
                                 <li><i class="fas fa-check"></i>Lorem ipsum dolor sit ame</li>

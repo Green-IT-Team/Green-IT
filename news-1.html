@@ -47,7 +47,13 @@
             <div class="header-main container">
 	            <div class="row">
 	                <h1 class="logo col-md-4 col-12">
-	                    <a href="index.html"><img id="logo" src="assets/images/logo.png" alt="Logo"></a>
+	                    <!--<a href="index.html"><img id="logo" src="assets/images/logo.png" alt="Logo"></a>-->
+                        <a href="index.html">
+                            <picture>
+                              <source srcset="assets/images/logo.webp" type="image/webp">
+                              <img id="logo" src="assets/images/logo.webp" alt="Logo" loading="lazy" decoding="async">
+                            </picture>
+                          </a> 
 	                </h1>           
 	                <div class="info col-md-8 col-12">
 	                    <ul class="menu-top float-right d-none d-md-block">
@@ -133,7 +139,13 @@
                         <div class="news-wrapper col-lg-8 col-md-7 col-12">                         
                             <article class="news-item">
                                 <p class="meta text-muted">By: <a href="#">Admin</a> | Posted on: 26 Jan 2014</p>
-                                <p class="featured-image"><img class="img-fluid" src="assets/images/news/news-1.jpg" alt="" /></p>
+                                <!--<p class="featured-image"><img class="img-fluid" src="assets/images/news/news-1.jpg" alt="" /></p>-->
+                                <p class="featured-image">
+                                    <picture>
+                                      <source srcset="assets/images/news/news-1.webp" type="image/webp">
+                                      <img class="img-fluid" src="assets/images/news/news-1.webp" alt="" loading="lazy" decoding="async">
+                                    </picture>
+                                  </p>  
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum pellentesque urna. Phasellus adipiscing et massa et aliquam. Ut odio magna, interdum quis dolor non, tristique vestibulum nisi. Nam accumsan convallis venenatis. Nullam posuere risus odio, in interdum felis venenatis sagittis. Integer malesuada porta fermentum. Sed luctus nibh sed mi auctor imperdiet. Cras et sapien rhoncus, pulvinar dolor sed, tincidunt massa. Nullam fringilla mauris non risus ultricies viverra. Donec a turpis non lorem pulvinar posuere.</p>
         
         <p>Nulla facilisi. Aenean interdum iaculis odio, et suscipit lorem euismod et. Sed nec orci suscipit, accumsan mauris nec, vestibulum felis. Nam eu felis sem. Fusce ut odio ipsum. Duis orci ipsum, feugiat ac dignissim in, convallis quis tortor. Mauris semper tortor nec justo adipiscing volutpat. Donec suscipit rhoncus est, vitae pretium purus laoreet et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed iaculis risus felis, sit amet porta urna volutpat vel. Integer vestibulum, neque a condimentum fermentum, est nunc tincidunt nunc, eget sagittis turpis elit nec arcu. Curabitur tempus mauris vitae dignissim vehicula. Fusce vehicula malesuada aliquam.</p>
@@ -157,33 +169,57 @@
                             <section class="widget has-divider">
                                 <h3 class="title">Other News</h3>
                                 <article class="news-item row">       
-                                    <figure class="thumb col-xl-2 col-3">
+                                   <!-- <figure class="thumb col-xl-2 col-3">
                                         <img src="assets/images/news/news-thumb-1.jpg" alt="">
-                                    </figure>
+                                    </figure>-->
+                                    <figure class="thumb col-xl-2 col-3">
+                                        <picture>
+                                          <source srcset="assets/images/news/news-thumb-1.webp" type="image/webp">
+                                          <img src="assets/images/news/news-thumb-1.webp" alt="" loading="lazy">
+                                        </picture>
+                                      </figure>
                                     <div class="details col-xl-10 col-9">
                                         <h4 class="title"><a href="news-1.html">Morbi bibendum consectetuer vulputate sollicitudin</a></h4>
                                     </div>
                                 </article>
                                 <article class="news-item row">       
-                                    <figure class="thumb col-xl-2 col-3">
+                                   <!-- <figure class="thumb col-xl-2 col-3">
                                         <img src="assets/images/news/news-thumb-2.jpg" alt="">
-                                    </figure>
+                                    </figure>-->
+                                    <figure class="thumb col-xl-2 col-3">
+                                        <picture>
+                                          <source srcset="assets/images/news/news-thumb-2.webp" type="image/webp">
+                                          <img src="assets/images/news/news-thumb-2.webp" alt="" loading="lazy">
+                                        </picture>
+                                      </figure>   
                                     <div class="details col-xl-10 col-9">
                                         <h4 class="title"><a href="news-1.html">Sed tincidunt urna eget turpis pretium hendrerit</a></h4>
                                     </div>
                                 </article>
                                 <article class="news-item row">       
-                                    <figure class="thumb col-xl-2 col-3">
+                                   <!-- <figure class="thumb col-xl-2 col-3">
                                         <img src="assets/images/news/news-thumb-3.jpg" alt="">
-                                    </figure>
+                                    </figure>-->
+                                    <figure class="thumb col-xl-2 col-3">
+                                        <picture>
+                                          <source srcset="assets/images/news/news-thumb-3.webp" type="image/webp">
+                                          <img src="assets/images/news/news-thumb-3.webp" alt="" loading="lazy">
+                                        </picture>
+                                      </figure>
                                     <div class="details col-xl-10 col-9">
                                         <h4 class="title"><a href="news-1.html">Duis scelerisque erat iaculis</a></h4>
                                     </div>
                                 </article>
                                 <article class="news-item row">       
-                                    <figure class="thumb col-xl-2 col-3">
+                                    <!--<figure class="thumb col-xl-2 col-3">
                                         <img src="assets/images/news/news-thumb-4.jpg" alt="">
-                                    </figure>
+                                    </figure>-->
+                                    <figure class="thumb col-xl-2 col-3">
+                                        <picture>
+                                          <source srcset="assets/images/news/news-thumb-4.webp" type="image/webp">
+                                          <img src="assets/images/news/news-thumb-4.webp" alt="" loading="lazy">
+                                        </picture>
+                                      </figure>  
                                     <div class="details col-xl-10 col-9">
                                         <h4 class="title"><a href="news-1.html">Duis scelerisque erat iaculis</a></h4>
                                     </div>
